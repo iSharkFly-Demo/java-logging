@@ -3,11 +3,13 @@ package com.ossez.demo.logging.logback;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+/**
+ * @author YuCheng
+ */
 public class HelloWorld {
-
     private static final Logger logger = LoggerFactory.getLogger(HelloWorld.class);
 
-    public static void main(String[] args) {
+    public static void main(String... args) {
 
         logger.debug("Hello from Logback");
 
