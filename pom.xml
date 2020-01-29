@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ ~ Hibernate Search, full-text search for your domain model
+ ~
+ ~ License: GNU Lesser General Public License (LGPL), version 2.1 or later
+ ~ See the lgpl.txt file in the root directory or <http://www.gnu.org/licenses/lgpl-2.1.html>.
+  -->
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.ossez.demo</groupId>
+    <artifactId>java-logging</artifactId>
+    <version>1.0.1</version>
+    <packaging>pom</packaging>
+
+    <name>OSSEZ Java Logging Demo ParentParent POM</name>
+    <description>Java Logging Demo ParentParent POM</description>
+
+    <url>https://www.cwiki.us/</url>
+
+    <inceptionYear>2020</inceptionYear>
+    <organization>
+        <name>CWIKI.US</name>
+        <url>https://www.cwiki.us/</url>
+    </organization>
+
+    <licenses>
+        <license>
+            <name>MIT License</name>
+            <url>https://opensource.org/licenses/MIT</url>
+            <comments>See also: https://opensource.org/licenses/MIT</comments>
+        </license>
+    </licenses>
+
+    <developers>
+        <developer>
+            <id>yucheng.hu</id>
+            <name>YuCheng Hu</name>
+            <email>yhu@ossez.com</email>
+            <url>https://github.com/yuchenghu</url>
+        </developer>
+    </developers>
+
+    <modules>
+        <module>log4j2</module>
+        <module>slf4j-logback</module>
+    </modules>
+
+</project>
